@@ -1,5 +1,5 @@
 # eslint-config-miguelaugl
-This is my eslint configuration for React
+This is my eslint configuration for React and Node
 
 [![CircleCI](https://circleci.com/gh/wcandillon/eslint-config-react-native-wcandillon.svg?style=svg)](https://circleci.com/gh/wcandillon/eslint-config-react-native-wcandillon)
 [![npm version](https://badge.fury.io/js/eslint-config-miguelaugl.svg)](https://badge.fury.io/js/eslint-config-miguelaugl)
@@ -23,5 +23,15 @@ In `.eslintrc`:
 ```json
 { 
   "extends": "eslint-config-miguelaugl/react", 
+} 
+```
+
+## Node
+
+In `.eslintrc`:
+
+```json
+{ 
+  "extends": "eslint-config-miguelaugl/node", 
 } 
 ```
