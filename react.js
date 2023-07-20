@@ -37,6 +37,7 @@ module.exports = {
         arrowParens: 'always',
         semi: false,
         endOfLine: 'auto',
+        jsxSingleQuote: true,
       },
     ],
     'react/react-in-jsx-scope': 'off',
